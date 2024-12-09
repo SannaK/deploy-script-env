@@ -22,7 +22,7 @@ import domain.models.script.*
 
 script {
     step("Nom de mon etape") {
-        wait((1000L .. 3000L).random())
+        wait(1000)
     }
 }
 ```
